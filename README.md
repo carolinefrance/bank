@@ -1,53 +1,49 @@
 # Bank-React-App
-The original code for this exercise was created by faculty for MiT xPro's Professional Certificate in Coding: Full Stack Development with MERN course (August 2022 cohort). I modified the appearance of app in the CSS stylesheet and optimized the code in the React JS and JSX files.
+The original code for this exercise was created by faculty for MiT xPro's Professional Certificate in Coding: Full Stack Development with MERN course (August 2022 cohort). I modified the appearance of the app in five CSS stylesheets. Styles in the components folder modify bootstrap components. Also, I optimized and added functionality to the JavaScript files, which include JSX elements.
 
 ##### Caroline J. France
-Last updated on 21 March 2023
+Last updated on 23 March 2023
 
 ### Project Description
-This React exercise is from the course's Module 18: Bad Bank. To view, please download all files in this repo. Viewers will see a simple, single-page create React app that is an interface for a bank with no security. At the moment, users can create an account, deposit withdraw funds, and see account information. Viewers are unable to withdraw funds that exceed the dollar amount in the account balance.
+This React app is from the course's Module 18 exercise: Bad Bank. Viewers will see a single-page create React app that is an interface for a bank with no security; this version is not connected to a backend. Upon loading, the user needs to create an account and log in before being able to access the deposit, withdraw, and users' account information pages.
 
 ### Future Improvements
 Here are some redesign/reconfigure ideas for this project:
-* I plan to add functionality to the JSX file, which includes error messages, log-in validation, timed messages related to the updated balance, a currency option, a language option, etc.
-* I plan to change the design. Specifically, I want to experiment with designing specifically for React components in an SCSS file.
-* I plan to connect this to a database.
+* Connect user data to a database.
+* Add stricter ES6 validation for form fields.
+* Add options: currency, language, and dark mode.
+* Make the design more responsive for small screens. Although current components are responsive, the design does not yet accommodate very small or large screens.
+* Get the toggle button to work for the navigation bar. I may need to start over with a new React bootstrap navigation bar, rather than work around a standard bootstrap nav.
 
-### Run These Commands in Terminal or Command Prompt
+### View the Live App
+View the live build on Netlify at [https://carolinefrancebankingapp.netlify.app/](https://carolinefrancebankingapp.netlify.app/)
+
+### Locally Run the App
+Download all files in the Bank-React-App repository into a directory on your computer. Open the directory in your code editor. You should have Node installed.
+
+In the terminal or command prompt, run the following commands:
+
+Open the directory with the app files in your code editor.
 * cd/bank
+
+Install the following dependencies:
 *	npm install bootstrap
-bootstrap navigation and cards are used in this app
+>>> bootstrap navigation and cards are used in this app
+
 * npm install react-router-dom
-enables navigation between pages
+>>> enables navigation between pages
+
 * npm install react-bootstrap
-enables bootstrap functionality in react
+>>> enables bootstrap functionality in react
+
 * npm install react-hook-form
-enables functionality of forms in react
-* npm install -g json-server
-enables passing and storing of user data from forms to the data.json file
-* if you want to view json data
-npm run server
-Open browser and go to http://localhost:8000/users
+>>> enables functionality of forms in react
+
 *	npm start
-app is now visible in browser at http://localhost:3000/
+>>> app is now visible on your local computer in the browser at [http://localhost:3000/](http://localhost:3000/)
 
-### How to Locally Run the Bank-React-App
-From this Bank-React-App repository, download these files:
-* index.html
-* atm.js
-* styles.css
-* nyc.png
-* deposit.png
-* withdraw.png
-* spacer.png
-
-Next, open Terminal (Mac) or Command Prompt (PC), and type the following commands:
-* npm install --global http-server
-* http-server -c1-1
-Then, open a browser, and paste the link to view on your machine:
-* http://127.0.0.1:8080
-
-# Getting Started with Create React App
+### Technologies Used
+# Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -118,7 +114,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### License
+### Images
+Free licensed images from Adobe Stock [https://stock.adobe.com/Library/urn:aaid:sc:US:c6e64467-4274-4b77-8709-13f30cddf20e](https://stock.adobe.com/Library/urn:aaid:sc:US:c6e64467-4274-4b77-8709-13f30cddf20e)
+
+### Author of the Revised Project
+Caroline J. France
+
+### License: Starter Code
 MIT License
 
 Copyright (c) 2020 John Williams
