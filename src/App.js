@@ -57,6 +57,7 @@ function App() {
             <Route path="/withdraw" element={<Withdraw updateUser={updateUser} loggedInUser = {loggedInUser} updateUserBalance={updateUserBalance} />} />
             <Route path="/all-data" element={<AllData users= {users} />} />
           </Routes>
+          <br />
         </UserContext.Provider>
       </BrowserRouter>
     </div>
