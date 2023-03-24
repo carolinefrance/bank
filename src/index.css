@@ -1,0 +1,27 @@
+/* STYLES: Global styles, affect index.html */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(../public/images/image-site-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #cccccc;
+    /* gradient background
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(195,215,162,0.8)); */
+    width: 100%;
+    height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

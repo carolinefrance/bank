@@ -1,0 +1,56 @@
+/* LOCAL STYLES modify bootstrap Card  */
+
+.card {
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 2;
+  width: 62%;
+  align-self: center;
+  height: 100%;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 20px 10px  rgba(75, 81, 85, 0.3);
+}
+
+.card-title {
+  font-size: 3.0vh;
+  color: #4e6879;
+  letter-spacing: 0.1em;
+}
+
+p {
+  font-size: 2.3vh;
+  font-family: "Avenir", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* responsive */
+  border-radius: 10px; /* rounded corners */
+}
+
+.btn {
+  background-color: #4e6879;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Avenir", sans-serif;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  margin: 10px;
+}
+.btn:disabled {
+  background-color: #dadeda;
+  color: #4e6879;
+  cursor: not-allowed;
+}
+
+/*
+NOTE: This is a style for a div that contains the Card component. It works as an inline style, but not when it is in a separate file.
+
+.positioncard {
+  display: "flex";
+  justify-content: "center";
+  padding-bottom: "20px";
+}
+*/

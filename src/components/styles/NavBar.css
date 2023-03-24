@@ -1,0 +1,68 @@
+/* NavBar subcomponent */
+/* Local CSS styles modify the Bootstrap navigation bar */
+
+/* background of bar */
+.navbar {
+  background-image: linear-gradient(to bottom, #4e6879, #6c8a95, #4e6879);
+}
+
+/* link - default */
+.navbar-nav .nav-item .nav-link {
+  color: rgba(222, 232, 234, 0.8);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* link - hover */
+.navbar-nav .nav-item .nav-link:hover {
+  background: rgba(231, 249, 198, 0.2); /* added highlight on hover */
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 0.3em;
+}
+
+/* Popup description */
+.description {
+  position: absolute;
+  top: 22%;
+  right: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #6c8a95;
+  border-radius: 5px;
+  font-style: italic;
+  padding: 10px;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  display: none;
+}
+
+.navbar-item:hover .description {
+  display: block;
+}
+
+/* For this class to work, I had to import the useLocation hook from react-router-dom to get the path, activeClassName prop set to active */
+.active {
+  background: #4e6879;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+/* company name - InsecureTRUST */
+/* note: Google font Belleza is imported in index.html */
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-family: "Belleza", serif;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: transparent; /* disable active class background color */
+  letter-spacing: normal; /* disable active class letter spacing */
+}

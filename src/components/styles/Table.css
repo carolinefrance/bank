@@ -1,0 +1,23 @@
+/* STYLE: Modify Bootstrap Table */
+
+/* Top row */
+.table {
+  width: 100%;
+}
+
+.table thead th {
+  background-image: linear-gradient(to bottom, #4e6879, #6c8a95, #4e6879);
+  color: white;
+  letter-spacing: 0.1em;
+  padding: 0.5rem;
+}
+
+/* Odd rows */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #dadeda;
+}
+
+/* Even rows */
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
